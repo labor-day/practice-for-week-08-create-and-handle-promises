@@ -2,7 +2,7 @@ function stretch() {
   // Your code here
   return new Promise((resolve, reject) => {
     setTimeout(() => resolve(), 1000);
-  }).then(() => {console.log("done stretching")});
+  }).then(()  => {console.log("done stretching")});
 }
 
 function runOnTreadmill() {
